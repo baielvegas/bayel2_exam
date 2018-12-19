@@ -12,6 +12,7 @@ class Cigarettes:
         self.brand = brand
         self.brand = cost
         self.is_capsule = is_capsule
+        print(self.brand, self.cost, self.is_capsule)
 
 Winston_XS = Cigarettes
 print("Brand:", Winston_XS.brand)
@@ -73,4 +74,20 @@ Cigarettes.cost = 50
 print("Cost:",Polet.cost)
 Cigarettes.is_capsule = False
 print("Capsule:",Polet.is_capsule)
+
+brand_dictionary = {
+    "Winston_XS":False,
+    "Winston_Exchange": True,
+    "Esse": False,
+    "Esse_Exchange": True,
+    "Marlboro":False,
+    "Richmond": False,
+    "Philip_Morris": True,
+    "Polet": False
+}
+
+for x,capsule in brand_dictionary.items():
+    if capsule == True:
+        print(x, capsule)
+
 
