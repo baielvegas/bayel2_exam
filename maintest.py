@@ -13,10 +13,10 @@ class Cigarettes:
         self.brand = cost
         self.is_capsule = is_capsule
 
-Cigarettes1 = Cigarettes
-print("Brand:", Cigarettes1.brand)
-print("Cost:",Cigarettes1.cost)
-print("Capsule:",Cigarettes1.is_capsule)
+Winston_XS = Cigarettes
+print("Brand:", Winston_XS.brand)
+print("Cost:",Winston_XS.cost)
+print("Capsule:",Winston_XS.is_capsule)
 
 Winston_Exchange = Cigarettes
 Cigarettes.brand = "Winston Exchange"
